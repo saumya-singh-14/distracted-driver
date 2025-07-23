@@ -1,6 +1,6 @@
 # Eyes on the Road: Real-Time Driver State Analysis
 
-A real-time driver monitoring system that uses computer vision techniques to detect drowsiness, gaze deviation, and head pose distraction using only a webcam. Built with Python, OpenCV, and MediaPipe, this system tracks eye closure, gaze direction, and head orientation to assess the driver's alertness level.
+A real-time driver monitoring system that uses computer vision techniques to detect drowsiness, gaze deviation and head pose distraction using only a webcam. Built with Python, OpenCV and MediaPipe, this system tracks eye closure, gaze direction and head orientation to assess the driver's alertness level.
 
 # Features
 
@@ -14,7 +14,7 @@ Head pose estimation (yaw, pitch, roll) using solvePnP
 
 Calculates PERCLOS — Percentage of Eye Closure — to monitor fatigue
 
-Displays live stats: EAR, Gaze Score, PERCLOS, FPS, and warning overlays
+Displays live stats: EAR, Gaze Score, PERCLOS, FPS and warning overlays
 
 # How It Works
 
@@ -69,4 +69,3 @@ A working webcam
 Python 3.7+
 
 Recommended: Run on CPU (no GPU required)
-
