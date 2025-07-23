@@ -54,7 +54,7 @@ Yaw / Pitch / Roll	> 20–30°	(Head movement distraction)
 
 # Installation
 
-git clone https://github.com/yourusername/driver-state-analysis.git  
+git clone https://github.com/saumya-singh-14/eyes-on-the-road.git  
 
 cd driver-state-analysis  
 
