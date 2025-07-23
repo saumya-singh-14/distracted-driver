@@ -24,15 +24,11 @@ Detect Landmarks: Uses MediaPipe to extract 3D face landmarks.
 
 Compute Metrics:
 
-  EAR to detect prolonged eye closure
-  
-  Gaze Score to detect if the driver is looking away
-  
-  Head Pose to detect distraction
+  1. EAR to detect prolonged eye closure
+  2. Gaze Score to detect if the driver is looking away
+  3. Head Pose to detect distraction
 
-Score Attention: Flags states like-
-
-  ASLEEP, LOOKING AWAY, DISTRACTED, TIRED
+Score Attention: Flags states like - ASLEEP, LOOKING AWAY, DISTRACTED, TIRED
 
 Display Warnings on the video feed in real time.
 
@@ -59,8 +55,11 @@ Yaw / Pitch / Roll	> 20–30°	(Head movement distraction)
 # Installation
 
 git clone https://github.com/yourusername/driver-state-analysis.git  
+
 cd driver-state-analysis  
+
 pip install -r requirements.txt
+
 python main.py  
 
 # Requirements
